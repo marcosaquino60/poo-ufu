@@ -195,7 +195,7 @@ public class Menu {
             if (formas[i] instanceof FormaTridimensional) {
                 encontrou = true;
                 System.out.println("Identificador: " + formas[i].identificador);
-                System.out.println("Área: " + ((FormaTridimensional) formas[i]).obterVolume());
+                System.out.println("Volume: " + ((FormaTridimensional) formas[i]).obterVolume());
                 System.out.println("---------------------------");
             }
         }
